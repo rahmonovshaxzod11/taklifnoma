@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diyora & Javoxir — Taklifnoma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&family=Montserrat:wght@300;400;500&family=Amiri&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+
+<audio id="music" src="music/music.mp3" loop preload="auto"></audio>
+
+<div class="topbar">
+  <div class="langs">
+    <button data-lang="ru">RU</button>
+    <button data-lang="en">EN</button>
+    <button data-lang="uz" class="on">UZ</button>
+    <button data-lang="uzc">ЎЗ</button>
+  </div>
+  <button id="musicBtn" class="music" aria-label="Musiqa">▷</button>
+</div>
+
+<!-- 1. MUQOVA -->
+<section id="cover" class="bg" style="--img:url('../images/cover.jpg')">
+  <div class="cover-in">
+    <p class="eyebrow"><span data-t="invite"></span></p>
+    <h1 class="names">Diyora <i>&amp;</i> Javoxir</h1>
+    <p class="date-line"><span></span>17 • 10 • 2026<span></span></p>
+    <p class="ayah-ar">وَأَلَّفَ بَيْنَ قُلُوبِهِمْ</p>
+    <p class="ayah" data-t="ayah"></p>
+    <p class="ayah-src" data-t="ayahSrc"></p>
+    <div class="heart">♡</div>
+    <div class="slider" id="slider">
+      <div class="knob" id="knob">🔒</div>
+      <span data-t="open"></span><em>→</em>
+    </div>
+  </div>
+</section>
+
+<main id="main">
+  <!-- 2. BIZ -->
+  <section class="bg full" style="--img:url('../images/couple.jpg')">
+    <div class="center">
+      <p class="small" data-t="dear"></p>
+      <h2 class="script">Biz</h2>
+      <p class="small lead" data-t="happy"></p>
+      <div class="heart">♡</div>
+    </div>
+  </section>
+
+  <!-- 3. SANA -->
+  <section class="paper">
+    <p class="small dark" data-t="date"></p>
+    <h2 class="bigdate">17 10 2026</h2>
+    <div class="rule"><i>♡</i></div>
+    <p class="small dark" data-t="left"></p>
+    <div class="count">
+      <div><b id="cd">0</b><small data-t="d"></small></div>
+      <div><b id="ch">0</b><small data-t="h"></small></div>
+      <div><b id="cm">0</b><small data-t="m"></small></div>
+      <div><b id="cs">0</b><small data-t="s"></small></div>
+    </div>
+    <div class="star">✧</div>
+    <h3 class="month" id="monthName"></h3>
+    <div class="cal" id="cal"></div>
+    <p class="small dark start" data-t="start"></p>
+  </section>
+
+  <!-- 4. DASTUR -->
+  <section class="paper program">
+    <p class="small dark" data-t="program"></p>
+    <ul class="tl">
+      <li><span class="ic">🥂</span><div><b>17:00</b><small data-t="p1"></small></div></li>
+      <li><span class="ic">💍</span><div><b>18:00</b><small data-t="p2"></small></div></li>
+      <li><span class="ic">🍽️</span><div><b>19:00</b><small data-t="p3"></small></div></li>
+      <li><span class="ic">🎆</span><div><b>22:00</b><small data-t="p4"></small></div></li>
+    </ul>
+  </section>
+
+  <!-- 5. JOY -->
+  <section class="bg venue" style="--img:url('../images/couple.jpg')">
+    <div class="card">
+      <p class="mono">✦ Y ✦</p>
+      <p class="small" data-t="place"></p>
+      <img src="images/venue1.jpg" alt="Yagona toyxonasi">
+      <img src="images/venue2.jpg" alt="Yagona toyxonasi ichki ko'rinishi">
+      <h2 class="script sm">“Yagona” <span data-t="hall"></span></h2>
+      <p class="addr" data-t="address"></p>
+      <a class="btn" target="_blank" rel="noopener" id="mapLink"
+         href="https://www.google.com/maps/search/?api=1&query=Yagona+toyxonasi+Samarkand"><span data-t="openMap"></span> →</a>
+      <p class="glad" data-t="glad"></p>
+      <div class="heart">♡</div>
+    </div>
+  </section>
+
+  <!-- 6. XARITA -->
+  <section class="bg map" style="--img:url('../images/couple.jpg')">
+    <div class="card">
+      <p class="chip">✦ LOCATION ✦</p>
+      <h2 class="serif" data-t="place2"></h2>
+      <p class="small">WHERE LOVE MEETS ELEGANCE</p>
+      <iframe loading="lazy" title="Xarita" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Yagona+toyxonasi+Samarkand&output=embed"></iframe>
+      <p class="foot">Diyora &amp; Javoxir ♡</p>
+    </div>
+  </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
