@@ -6,7 +6,7 @@ const L = {
     dear:"Qadrli azizlarimiz!",happy:"Sizlarni to'yimizga taklif etishdan juda xursandmiz",date:"Sana",left:"To'ygacha qolgan vaqt",
     d:"Kun",h:"Soat",m:"Daqiqa",s:"Soniya",start:"Boshlanishi 17:00 da",program:"Dastur",
     p1:"Mehmonlar yig'ilishi",p2:"Marosim",p3:"Bayram dasturxoni",p4:"Yakuni",place:"O'tkazilish joyi",hall:"to'yxonasi",
-    address:"Toshkent shahri, “Yagona” to'yxonasi (manzilni shu yerga yozing)",openMap:"Xaritada ochish",glad:"Sizni ko'rishdan xursand bo'lamiz!",
+    address:"Tugmani bosing",openMap:"Xaritada ochish",glad:"Sizni ko'rishdan xursand bo'lamiz!",
     place2:"O'tkazilish joyi",month:"Oktyabr 2026",wd:["Du","Se","Ch","Pa","Ju","Sh","Ya"]},
   ru:{invite:"Вам пришло приглашение",ayah:"«И Он объединил их сердца»",ayahSrc:"Аль-Анфаль, 63",open:"ОТКРЫТЬ",
     dear:"Дорогие наши!",happy:"Мы очень рады пригласить вас на нашу свадьбу",date:"Дата",left:"До свадьбы осталось",
